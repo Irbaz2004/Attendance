@@ -96,7 +96,7 @@ app.put('/updateAttendance', async (req, res) => {
 
 
 
-
+mongoose.connection
 
 app.listen(PORT,()=>{
   console.log(`Server running on port ${PORT}`)  })
